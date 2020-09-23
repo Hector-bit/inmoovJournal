@@ -1,8 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
+import Mainpage from '../src/components/Mainpage';
 function App() {
   return (
-    <div>Journal for inmoov build</div>
+    <div>
+      <div>Journal for inmoov build</div>
+      <Mainpage/>
+    </div>
   );
 }
 
